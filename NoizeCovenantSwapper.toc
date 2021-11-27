@@ -1,0 +1,6 @@
+## Interface: 90105 
+## Version: 1.0
+## Title: |CFF277EA3Noize Covenant Swapper|r
+## Author: Noize
+## Notes: Lightweight addon that updates two macros each for class and signature ability when changing covenant.
+NoizeCovenantSwapper.lua
