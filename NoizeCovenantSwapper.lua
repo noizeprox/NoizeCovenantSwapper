@@ -51,12 +51,12 @@ frame:SetScript("OnEvent", function()
 		local mouseover = ""
 		local cursor = ""
 		
-		-- set mouseover string for following abilites:  The Hunt, Sinful Brand, Serrated Bone Spike, 
+		-- set mouseover string for following abilities:  The Hunt, Sinful Brand, Serrated Bone Spike,
 		if spellId == 317009 or spellId == 323639 or spellId == 328547 then
 			mouseover = "[@mouseover,exists][] "
 		end
 		
-		-- set cursor string for following abilites: Spear of Bastion, Elysian Decree, Bonedust Brew
+		-- set cursor string for following abilities: Spear of Bastion, Elysian Decree, Bonedust Brew
 		if spellId == 307865 or spellId == 306830 or spellId == 325216 then
 			cursor = "[mod:alt][@cursor] "
 		end
