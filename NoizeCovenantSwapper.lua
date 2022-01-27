@@ -60,6 +60,10 @@ frame:SetScript("OnEvent", function()
 		if spellId == 307865 or spellId == 306830 or spellId == 325216 then
 			cursor = "[mod:alt][@cursor] "
 		end
+
+		if spellId == 317349 then
+			spellName = "Dragon Roar"
+		end
 			
 		-- edit abilityMacro
 		if abilityMacro then
